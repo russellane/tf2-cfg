@@ -1,0 +1,32 @@
+script execution order
+
+clean, no mastercomfig
+
+	start tf2
+		autoexec.cfg 
+
+	start local server:
+		listenserver.cfg 
+		koth_harvest_final.cfg
+		pyro.cfg
+
+with mastercomfig, see custom/.README
+
+	start tf2
+		1. user/pre_comfig.cfg
+		2. user/modules.cfg 
+		3. user/autoexec.cfg, which runs:
+		3.1. user/bad-dad-aliases.cfg
+		3.2. user/bad-dad-reset.cfg, which runs:
+		3.2.1. user/autoconfig.cfg
+		3.2.2. user/bad-dad-keyboard.cfg
+		3.2.3. user/bad-dad-keybinds.cfg
+		3.2.4. user/tf2-monitor.cfg
+		3.2.5. user/qvalve.cfg
+
+	start local server:
+		1. listenserver.cfg 
+		2. koth_harvest_final.cfg
+		3. user/game_overrides.cfg 
+		4. user/pyro.cfg (soldier, etc) which runs:
+		4.1 user/bad-dad-reset.cfg (like 3.2)

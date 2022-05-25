@@ -1,0 +1,31 @@
+Bad Dad's local binds:
+
+bind F9 "say /taunt"
+bind F10 toggle_person_view
+bind F11 "say !rtd"
+bind F +fine_tuning
+bind O next_fov
+bind Q toggle_ps_weapons
+bind BACKSPACE next_loadout
+bind RALT next_net_graph
+bind RWIN write_full_config
+bind APP toggle_hide_weapon
+bind RCTRL show_dings
+bind SCROLLLOCK toggle_debug_pyro
+bind INS start_bots1
+bind DEL start_bots2
+bind HOME show_ding
+bind END show_lastding
+bind PGUP next_ding
+bind PGDN next_lastding
+bind UPARROW "say help help i'm stuck in enemy spawn"
+bind KP_SLASH toggle_quiet
+bind KP_MULTIPLY toggle_stfu
+bind KP_MINUS noclip
+bind KP_PLUS toggle_godmode
+bind KP_INS toggle_pause
+bind "[" "echo TF2MON-KICK-LAST-CHEATER"
+bind "]" "echo TF2MON-KICK-LAST-RACIST"
+bind "\" "echo TF2MON-KICK-LAST-SUSPECT"
+
+This file was created by Makefile on Wed 25 May 2022 10:02:18 AM CDT
