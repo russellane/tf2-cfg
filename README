@@ -20,9 +20,9 @@ with mastercomfig, see custom/.README
 		3.2. user/bad-dad-reset.cfg, which runs:
 		3.2.1. user/autoconfig.cfg
 		3.2.2. user/bad-dad-keyboard.cfg
-		3.2.3. user/bad-dad-keybinds.cfg
-		3.2.4. user/tf2-monitor.cfg
-		3.2.5. user/qvalve.cfg
+		3.2.3. user/tf2-monitor.cfg
+		3.2.4. user/qvalve.cfg
+		3.2.5. user/bad-dad-keybinds.cfg
 
 	start local server:
 		1. listenserver.cfg 
